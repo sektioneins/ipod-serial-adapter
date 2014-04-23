@@ -1,0 +1,195 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:powerint
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:smsc
+LIBS:SparkFun
+LIBS:AWJLEagleLib
+LIBS:ElevenDroids - ICs
+LIBS:s1_ipod_serial-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L +5V #PWR26
+U 1 1 53373854
+P 5100 3150
+F 0 "#PWR26" H 5100 3240 20  0001 C CNN
+F 1 "+5V" H 5100 3240 30  0000 C CNN
+F 2 "" H 5100 3150 60  0000 C CNN
+F 3 "" H 5100 3150 60  0000 C CNN
+	1    5100 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 53373860
+P 6050 4650
+F 0 "R3" V 6130 4650 40  0000 C CNN
+F 1 "270R" V 6057 4651 40  0000 C CNN
+F 2 "" V 5980 4650 30  0000 C CNN
+F 3 "" H 6050 4650 30  0000 C CNN
+	1    6050 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D4
+U 1 1 53373866
+P 5500 4800
+F 0 "D4" H 5500 4900 50  0000 C CNN
+F 1 "TX" H 5500 4700 50  0000 C CNN
+F 2 "" H 5500 4800 60  0000 C CNN
+F 3 "" H 5500 4800 60  0000 C CNN
+	1    5500 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D3
+U 1 1 5337386C
+P 5500 4500
+F 0 "D3" H 5500 4600 50  0000 C CNN
+F 1 "RX" H 5500 4400 50  0000 C CNN
+F 2 "" H 5500 4500 60  0000 C CNN
+F 3 "" H 5500 4500 60  0000 C CNN
+	1    5500 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L FT232RL-BASICSSOP U?
+U 1 1 53373872
+P 5800 3350
+AR Path="/53373872" Ref="U?"  Part="1" 
+AR Path="/5337367B/53373872" Ref="U1"  Part="1" 
+F 0 "U1" H 5500 3970 50  0000 L BNN
+F 1 "FT232RL-BASICSSOP" H 5500 2550 50  0000 L BNN
+F 2 "SparkFun-SSOP28DB" H 5800 3500 50  0001 C CNN
+F 3 "" H 5800 3350 60  0000 C CNN
+	1    5800 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 5200 3650
+Connection ~ 5200 3750
+Connection ~ 5200 3850
+Wire Wire Line
+	5200 3550 5200 4050
+Connection ~ 5200 3950
+$Comp
+L +5V #PWR28
+U 1 1 53373883
+P 6300 4650
+F 0 "#PWR28" H 6300 4740 20  0001 C CNN
+F 1 "+5V" H 6300 4740 30  0000 C CNN
+F 2 "" H 6300 4650 60  0000 C CNN
+F 3 "" H 6300 4650 60  0000 C CNN
+	1    6300 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3250 5200 3350
+Wire Wire Line
+	5000 3250 5200 3250
+NoConn ~ 6400 3150
+NoConn ~ 6400 3250
+NoConn ~ 6400 3350
+Wire Wire Line
+	5700 4500 5800 4500
+Wire Wire Line
+	5800 4500 5800 4800
+Wire Wire Line
+	5800 4800 5700 4800
+Connection ~ 5800 4650
+Text Label 5300 4500 2    59   ~ 0
+SERIAL_RX_LED
+Text Label 5300 4800 2    59   ~ 0
+SERIAL_TX_LED
+Text Label 6400 3850 0    59   ~ 0
+SERIAL_TX_LED
+Text Label 6400 3950 0    59   ~ 0
+SERIAL_RX_LED
+Wire Wire Line
+	5200 3950 5050 3950
+Wire Wire Line
+	5200 3150 5100 3150
+$Comp
+L C C3
+U 1 1 5337389D
+P 5000 3450
+F 0 "C3" H 5000 3550 40  0000 L CNN
+F 1 "100nF" H 5006 3365 40  0000 L CNN
+F 2 "" H 5038 3300 30  0000 C CNN
+F 3 "" H 5000 3450 60  0000 C CNN
+	1    5000 3450
+	1    0    0    -1  
+$EndComp
+Text HLabel 5200 2850 0    20   Input ~ 0
+SERIAL_USB_D-
+Text HLabel 5200 2950 0    20   Input ~ 0
+SERIAL_USB_D+
+Text HLabel 5050 3950 0    20   Input ~ 0
+SERIAL_GND
+Text HLabel 6400 2850 2    20   Input ~ 0
+SERIAL_TX
+Text HLabel 6400 2950 2    20   Input ~ 0
+SERIAL_RX
+$Comp
+L GND #PWR?
+U 1 1 53398CCC
+P 5200 4050
+F 0 "#PWR?" H 5200 4050 30  0001 C CNN
+F 1 "GND" H 5200 3980 30  0001 C CNN
+F 2 "" H 5200 4050 60  0000 C CNN
+F 3 "" H 5200 4050 60  0000 C CNN
+	1    5200 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 53398CE0
+P 5000 3650
+F 0 "#PWR?" H 5000 3650 30  0001 C CNN
+F 1 "GND" H 5000 3580 30  0001 C CNN
+F 2 "" H 5000 3650 60  0000 C CNN
+F 3 "" H 5000 3650 60  0000 C CNN
+	1    5000 3650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

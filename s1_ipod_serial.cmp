@@ -1,0 +1,234 @@
+Cmp-Mod V01 Created by Cvpcb (2014-03-23 BZR 4768)-product   date = Mo 31 Mär 2014 14:10:13 CEST
+
+BeginCmp
+TimeStamp = /53302F9E;
+Reference = C1;
+ValeurCmp = 10uF/10V;
+IdModule  = Capacitors.pretty:CP_5x11mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5339A192;
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = SMD_Packages.pretty:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329D058;
+Reference = C4;
+ValeurCmp = 100uF;
+IdModule  = Capacitors.pretty:CP_5x11mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329CF44;
+Reference = C5;
+ValeurCmp = 0,1uF;
+IdModule  = SMD_Packages.pretty:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53302F4E;
+Reference = C6;
+ValeurCmp = 100nF;
+IdModule  = SMD_Packages.pretty:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53302F62;
+Reference = C8;
+ValeurCmp = 100nF;
+IdModule  = SMD_Packages.pretty:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53302F76;
+Reference = C9;
+ValeurCmp = 100nF;
+IdModule  = SMD_Packages.pretty:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53302F8A;
+Reference = C10;
+ValeurCmp = 100nF;
+IdModule  = SMD_Packages.pretty:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53302FB2;
+Reference = C12;
+ValeurCmp = 100nF;
+IdModule  = SMD_Packages.pretty:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53302FC6;
+Reference = C13;
+ValeurCmp = 100nF;
+IdModule  = SMD_Packages.pretty:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53302FDA;
+Reference = C14;
+ValeurCmp = 100nF;
+IdModule  = SMD_Packages.pretty:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53302BF0;
+Reference = C15;
+ValeurCmp = 1uF;
+IdModule  = SMD_Packages.pretty:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53302A17;
+Reference = C16;
+ValeurCmp = 20pF;
+IdModule  = SMD_Packages.pretty:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53302A2B;
+Reference = C17;
+ValeurCmp = 20pF;
+IdModule  = SMD_Packages.pretty:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329FA4C;
+Reference = D1;
+ValeurCmp = Amber;
+IdModule  = LEDs.pretty:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329FA60;
+Reference = D2;
+ValeurCmp = Green;
+IdModule  = LEDs.pretty:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5339A16C;
+Reference = D3;
+ValeurCmp = RX;
+IdModule  = LEDs.pretty:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5339A166;
+Reference = D4;
+ValeurCmp = TX;
+IdModule  = LEDs.pretty:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /533150FC;
+Reference = FB1;
+ValeurCmp = FILTER;
+IdModule  = AWJLEagleLib:0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /533151A8;
+Reference = FB2;
+ValeurCmp = FILTER;
+IdModule  = AWJLEagleLib:0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329C064;
+Reference = IC1;
+ValeurCmp = GL850G-LQFP48;
+IdModule  = ftdichip-6:LQFP48;
+EndCmp
+
+BeginCmp
+TimeStamp = /53307481;
+Reference = J1;
+ValeurCmp = USB-MINIB-5PIN;
+IdModule  = SparkFun-Connectors:USB-MINIB;
+EndCmp
+
+BeginCmp
+TimeStamp = /5328C9BE;
+Reference = P1;
+ValeurCmp = IPOD_CONNECTOR_MALE;
+IdModule  = SparkFun-Connectors:IPOD_MALE_CONNECTOR;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329FAC2;
+Reference = R1;
+ValeurCmp = 480R;
+IdModule  = SMD_Packages.pretty:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5339A160;
+Reference = R2;
+ValeurCmp = 270R;
+IdModule  = SMD_Packages.pretty:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329F325;
+Reference = R5;
+ValeurCmp = 320R;
+IdModule  = SMD_Packages.pretty:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /533048AB;
+Reference = R6;
+ValeurCmp = 100K;
+IdModule  = SMD_Packages.pretty:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53302BC8;
+Reference = R10;
+ValeurCmp = 10K;
+IdModule  = SMD_Packages.pretty:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /533026E2;
+Reference = R11;
+ValeurCmp = 680R;
+IdModule  = SMD_Packages.pretty:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53302BDC;
+Reference = R12;
+ValeurCmp = 47K;
+IdModule  = SMD_Packages.pretty:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53397114;
+Reference = U1;
+ValeurCmp = LM3526M-H;
+IdModule  = SSOP_Packages.pretty:SSOP-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /5339A172;
+Reference = U2;
+ValeurCmp = FT232RL-BASICSSOP;
+IdModule  = SSOP_Packages.pretty:SSOP-28;
+EndCmp
+
+BeginCmp
+TimeStamp = /5339AFCA;
+Reference = X1;
+ValeurCmp = 12 Mhz;
+IdModule  = Crystals.pretty:Crystal_Round_Vertical_3mm;
+EndCmp
+
+EndListe
