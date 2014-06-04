@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-03-23 BZR 4768)-product   date = Mo 31 Mär 2014 14:10:13 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-03-23 BZR 4768)-product   date = Di 03 Jun 2014 21:41:10 CEST
 
 BeginCmp
 TimeStamp = /53302F9E;
@@ -99,9 +99,9 @@ IdModule  = SMD_Packages.pretty:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5329FA4C;
+TimeStamp = /538E1AA5;
 Reference = D1;
-ValeurCmp = Amber;
+ValeurCmp = Suspend;
 IdModule  = LEDs.pretty:LED-0603;
 EndCmp
 
@@ -176,9 +176,23 @@ IdModule  = SMD_Packages.pretty:SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /538C963C;
+Reference = R3;
+ValeurCmp = 0R;
+IdModule  = SMD_Packages.pretty:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538C9650;
+Reference = R4;
+ValeurCmp = 0R;
+IdModule  = SMD_Packages.pretty:SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /5329F325;
 Reference = R5;
-ValeurCmp = 320R;
+ValeurCmp = 470K;
 IdModule  = SMD_Packages.pretty:SM0603;
 EndCmp
 
@@ -186,6 +200,20 @@ BeginCmp
 TimeStamp = /533048AB;
 Reference = R6;
 ValeurCmp = 100K;
+IdModule  = SMD_Packages.pretty:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E25EC;
+Reference = R7;
+ValeurCmp = 0R;
+IdModule  = SMD_Packages.pretty:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E2600;
+Reference = R8;
+ValeurCmp = 0R;
 IdModule  = SMD_Packages.pretty:SM0603;
 EndCmp
 
@@ -214,7 +242,7 @@ BeginCmp
 TimeStamp = /53397114;
 Reference = U1;
 ValeurCmp = LM3526M-H;
-IdModule  = SSOP_Packages.pretty:SSOP-8;
+IdModule  = AWJLEagleLib:SO08;
 EndCmp
 
 BeginCmp
