@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-03-23 BZR 4768)-product   date = Di 03 Jun 2014 21:41:10 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-03-23 BZR 4768)-product   date = Fr 06 Jun 2014 12:22:48 CEST
 
 BeginCmp
 TimeStamp = /53302F9E;
@@ -130,14 +130,14 @@ BeginCmp
 TimeStamp = /533150FC;
 Reference = FB1;
 ValeurCmp = FILTER;
-IdModule  = AWJLEagleLib:0805;
+IdModule  = SMD_Packages.pretty:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /533151A8;
 Reference = FB2;
 ValeurCmp = FILTER;
-IdModule  = AWJLEagleLib:0805;
+IdModule  = SMD_Packages.pretty:SM0603;
 EndCmp
 
 BeginCmp
@@ -164,7 +164,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5329FAC2;
 Reference = R1;
-ValeurCmp = 480R;
+ValeurCmp = 470R;
 IdModule  = SMD_Packages.pretty:SM0603;
 EndCmp
 
@@ -172,20 +172,6 @@ BeginCmp
 TimeStamp = /5339A160;
 Reference = R2;
 ValeurCmp = 270R;
-IdModule  = SMD_Packages.pretty:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /538C963C;
-Reference = R3;
-ValeurCmp = 0R;
-IdModule  = SMD_Packages.pretty:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /538C9650;
-Reference = R4;
-ValeurCmp = 0R;
 IdModule  = SMD_Packages.pretty:SM0603;
 EndCmp
 

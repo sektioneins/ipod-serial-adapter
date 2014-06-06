@@ -40,9 +40,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "iPod Serialcable"
-Date "25 Mär 2014"
-Rev "0.9"
+Title "iPod Serial Connector"
+Date "06 Jun 2014"
+Rev "0.8"
 Comp "SektionEins GmbH"
 Comment1 ""
 Comment2 ""
@@ -790,28 +790,6 @@ F 3 "" H 9350 800 60  0000 C CNN
 	1    9350 800 
 	1    0    0    -1  
 $EndComp
-$Comp
-L R R3
-U 1 1 538C963C
-P 4050 2750
-F 0 "R3" V 4130 2750 40  0000 C CNN
-F 1 "0R" V 4057 2751 40  0000 C CNN
-F 2 "" V 3980 2750 30  0000 C CNN
-F 3 "" H 4050 2750 30  0000 C CNN
-	1    4050 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R4
-U 1 1 538C9650
-P 4200 2750
-F 0 "R4" V 4280 2750 40  0000 C CNN
-F 1 "0R" V 4207 2751 40  0000 C CNN
-F 2 "" V 4130 2750 30  0000 C CNN
-F 3 "" H 4200 2750 30  0000 C CNN
-	1    4200 2750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8850 2200 9700 2200
 Wire Wire Line
@@ -869,7 +847,7 @@ Connection ~ 6250 4650
 Wire Wire Line
 	5250 4550 5250 4600
 Wire Wire Line
-	4550 4600 6900 4600
+	6900 4600 4550 4600
 Wire Wire Line
 	5850 4600 5850 4550
 Wire Wire Line
@@ -889,8 +867,6 @@ Connection ~ 6900 4600
 Wire Wire Line
 	6150 4750 6150 4550
 Wire Wire Line
-	4050 2450 6250 2450
-Wire Wire Line
 	5350 2450 5350 2550
 Wire Wire Line
 	6250 2450 6250 2550
@@ -905,16 +881,13 @@ Connection ~ 4500 3100
 Wire Wire Line
 	4500 4100 4600 4100
 Connection ~ 4500 3700
-Connection ~ 4500 2450
 Wire Wire Line
-	4550 2500 4550 4600
+	4550 4600 4550 2500
 Connection ~ 5250 4600
 Wire Wire Line
 	4450 2400 4450 4000
 Wire Wire Line
 	4450 4000 4600 4000
-Wire Wire Line
-	4200 2500 6050 2500
 Wire Wire Line
 	6050 2500 6050 2550
 Wire Wire Line
@@ -1058,12 +1031,6 @@ Connection ~ 4500 3800
 Wire Wire Line
 	9350 800  9350 700 
 Connection ~ 9550 700 
-Wire Wire Line
-	4050 3000 4600 3000
-Connection ~ 4200 3000
-Connection ~ 4550 2500
-Wire Wire Line
-	4050 2450 4050 2500
 $Comp
 L LED D1
 U 1 1 538E1AA5
@@ -1105,4 +1072,15 @@ F 3 "" H 9200 3300 30  0000 C CNN
 	1    9200 3300
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	4550 2500 6050 2500
+Wire Wire Line
+	4600 3000 4500 3000
+Connection ~ 4500 3000
+Wire Wire Line
+	4500 2450 6250 2450
+Connection ~ 4500 2450
+NoConn ~ 2650 3900
+NoConn ~ 1950 3900
+NoConn ~ 1950 3800
 $EndSCHEMATC
