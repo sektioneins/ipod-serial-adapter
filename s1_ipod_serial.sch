@@ -41,8 +41,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "iPod Serial Connector"
-Date "06 Jun 2014"
-Rev "0.8"
+Date "07 Jul 2014"
+Rev "0.5"
 Comp "SektionEins GmbH"
 Comment1 ""
 Comment2 ""
@@ -120,7 +120,7 @@ L C C5
 U 1 1 5329CF44
 P 9350 2550
 F 0 "C5" H 9350 2650 40  0000 L CNN
-F 1 "0,1uF" H 9356 2465 40  0000 L CNN
+F 1 "100nF" H 9356 2465 40  0000 L CNN
 F 2 "" H 9388 2400 30  0000 C CNN
 F 3 "" H 9350 2550 60  0000 C CNN
 	1    9350 2550
@@ -506,7 +506,7 @@ L LM3526M-H U1
 U 1 1 53397114
 P 2350 3700
 F 0 "U1" H 2300 3950 50  0000 C CNN
-F 1 "LM3526M-H" H 2300 3350 50  0000 C CNN
+F 1 "LM3526M-L" H 2300 3350 50  0000 C CNN
 F 2 "" H 2350 3700 60  0000 C CNN
 F 3 "" H 2350 3700 60  0000 C CNN
 	1    2350 3700
@@ -851,8 +851,6 @@ Wire Wire Line
 Wire Wire Line
 	5850 4600 5850 4550
 Wire Wire Line
-	6900 3000 6900 4750
-Wire Wire Line
 	6900 4100 6850 4100
 Connection ~ 5850 4600
 Wire Wire Line
@@ -1012,22 +1010,10 @@ Wire Wire Line
 	7750 3900 7750 4300
 Connection ~ 7750 4250
 Wire Wire Line
-	5150 2550 5150 2450
-Connection ~ 5150 2450
-Wire Wire Line
-	6850 3000 6900 3000
-Connection ~ 6900 3400
-Wire Wire Line
-	5450 2550 5450 2450
-Connection ~ 5450 2450
-Wire Wire Line
 	2550 2850 2650 2850
 Wire Wire Line
 	6850 3500 6950 3500
 Connection ~ 6950 3500
-Wire Wire Line
-	4600 3800 4500 3800
-Connection ~ 4500 3800
 Wire Wire Line
 	9350 800  9350 700 
 Connection ~ 9550 700 
@@ -1083,4 +1069,10 @@ Connection ~ 4500 2450
 NoConn ~ 2650 3900
 NoConn ~ 1950 3900
 NoConn ~ 1950 3800
+NoConn ~ 4600 3800
+NoConn ~ 5150 2550
+NoConn ~ 5450 2550
+NoConn ~ 6850 3000
+Wire Wire Line
+	6900 3400 6900 4750
 $EndSCHEMATC

@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by Cvpcb (2014-03-23 BZR 4768)-product   date = Fr 06 Jun 2014 12:22:48 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-03-23 BZR 4768)-product   date = Mo 07 Jul 2014 15:15:30 CEST
 
 BeginCmp
 TimeStamp = /53302F9E;
 Reference = C1;
 ValeurCmp = 10uF/10V;
-IdModule  = Capacitors.pretty:CP_5x11mm;
+IdModule  = SMD_Packages.pretty:SM0603;
 EndCmp
 
 BeginCmp
@@ -18,13 +18,13 @@ BeginCmp
 TimeStamp = /5329D058;
 Reference = C4;
 ValeurCmp = 100uF;
-IdModule  = Capacitors.pretty:CP_5x11mm;
+IdModule  = SMD_Packages.pretty:SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /5329CF44;
 Reference = C5;
-ValeurCmp = 0,1uF;
+ValeurCmp = 100nF;
 IdModule  = SMD_Packages.pretty:SM0603;
 EndCmp
 
@@ -227,7 +227,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53397114;
 Reference = U1;
-ValeurCmp = LM3526M-H;
+ValeurCmp = LM3526M-L;
 IdModule  = AWJLEagleLib:SO08;
 EndCmp
 
